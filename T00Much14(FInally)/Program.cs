@@ -10,7 +10,7 @@ namespace T00Much14_FInally_
     {
         static void Main(string[] args)
         {
-            /
+            
             Console.WriteLine("Задание 1");
             Bank bank = new Bank("Azat",10000, Bank.tip.saving);
             bank.DumpToScreen();
@@ -34,8 +34,6 @@ namespace T00Much14_FInally_
                 NameOrgAtribute a = (NameOrgAtribute)i;
                 Console.WriteLine($"Разработчик :{a.Name} \n Организация:{a.Organization}");
             }
-
-
             Console.ReadKey();
 
 
